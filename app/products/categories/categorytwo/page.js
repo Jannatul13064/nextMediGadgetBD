@@ -11,7 +11,7 @@ const Categorytwo = () => {
           <div className="card w-96 glass card-normal">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
                 alt="car!"
               />
             </figure>
@@ -26,7 +26,7 @@ const Categorytwo = () => {
           <div className="card w-96 glass card-normal">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
                 alt="car!"
               />
             </figure>
@@ -41,7 +41,7 @@ const Categorytwo = () => {
           <div className="card w-96 glass card-normal">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
                 alt="car!"
               />
             </figure>

@@ -5,23 +5,26 @@ const Slider = () => {
     <div>
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
-          <img src="https://i.ibb.co/1f7YFYB/3-1-2.png" className="w-full" />
+          <img
+            src="https://i.ibb.co/RTqbhfJ/3-1-2-1-1.png"
+            className="w-full"
+          />
         </div>
         <div id="item2" className="carousel-item w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+            src="https://i.ibb.co/RTqbhfJ/3-1-2-1-1.png"
             className="w-full"
           />
         </div>
         <div id="item3" className="carousel-item w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+            src="https://i.ibb.co/RTqbhfJ/3-1-2-1-1.png"
             className="w-full"
           />
         </div>
         <div id="item4" className="carousel-item w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+            src="https://i.ibb.co/RTqbhfJ/3-1-2-1-1.png"
             className="w-full"
           />
         </div>

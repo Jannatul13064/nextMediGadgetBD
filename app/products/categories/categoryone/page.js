@@ -10,10 +10,7 @@ const Categoryone = () => {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 place-items-center">
           <div className="card w-96 glass card-normal">
             <figure>
-              <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="car!"
-              />
+              <img src="https://i.ibb.co/Fs8xtH4/max-3.jpg" alt="car!" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Life hack</h2>
@@ -25,10 +22,7 @@ const Categoryone = () => {
           </div>
           <div className="card w-96 glass card-normal">
             <figure>
-              <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="car!"
-              />
+              <img src="https://i.ibb.co/Fs8xtH4/max-3.jpg" alt="car!" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Life hack</h2>
@@ -40,10 +34,7 @@ const Categoryone = () => {
           </div>
           <div className="card w-96 glass card-normal">
             <figure>
-              <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="car!"
-              />
+              <img src="https://i.ibb.co/Fs8xtH4/max-3.jpg" alt="car!" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Life hack</h2>
