@@ -5,10 +5,7 @@ const Slider = () => {
     <div>
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
-          <img
-            src="https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/412803976_122125266434089181_34256929985393582_n.png?_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeGI6rxurYSr1iA9IRI0WkeBeAuk8pfZ8rd4C6Tyl9nyt1Oq6eZJkme25xaMKe8Inxt2asuuDl6DfcBFgFK-pmsf&_nc_ohc=06s7RVWt5m8AX-Gu5pA&_nc_ht=scontent.fdac27-2.fna&oh=00_AfBDJo3PC7UobVV7Ib1QRtbFY-xZwW1bBitopV5KZyxkFg&oe=658EF3C5"
-            className="w-full"
-          />
+          <img src="https://i.ibb.co/1f7YFYB/3-1-2.png" className="w-full" />
         </div>
         <div id="item2" className="carousel-item w-full">
           <img
