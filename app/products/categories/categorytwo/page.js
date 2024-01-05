@@ -8,7 +8,7 @@ const Categorytwo = () => {
           Products Category Two
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 place-items-center">
-          <div className="card w-96 glass card-normal">
+          <div className="card lg:w-96 md:w-96 sm:w-auto glass card-normal">
             <figure>
               <img
                 src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
@@ -28,7 +28,7 @@ const Categorytwo = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 glass card-normal">
+          <div className="card lg:w-96 md:w-96 sm:w-auto glass card-normal">
             <figure>
               <img
                 src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
@@ -48,7 +48,7 @@ const Categorytwo = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 glass card-normal">
+          <div className="card lg:w-96 md:w-96 sm:w-auto glass card-normal">
             <figure>
               <img
                 src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
