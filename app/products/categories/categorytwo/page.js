@@ -13,7 +13,7 @@ const Categorytwo = () => {
               <img
                 src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
                 alt="car!"
-                className="object-contain h-80 w-80"
+                className="object-contain h-60 pt-4"
               />
             </figure>
             <div className="card-body">
@@ -33,7 +33,7 @@ const Categorytwo = () => {
               <img
                 src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
                 alt="car!"
-                className="object-contain h-80 w-80"
+                className="object-contain h-60 pt-4"
               />
             </figure>
             <div className="card-body">
@@ -53,7 +53,7 @@ const Categorytwo = () => {
               <img
                 src="https://i.ibb.co/y0Y8Hj4/01-maxplus-step-GE-3.jpg"
                 alt="car!"
-                className="object-contain h-80 w-80"
+                className="object-contain h-60 pt-4"
               />
             </figure>
             <div className="card-body">

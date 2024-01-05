@@ -13,7 +13,7 @@ const Categoryone = () => {
               <img
                 src="https://i.ibb.co/Fs8xtH4/max-3.jpg"
                 alt="car!"
-                className="object-contain h-80"
+                className="object-contain h-60"
               />
             </figure>
             <div className="card-body mx-auto">
@@ -48,7 +48,7 @@ const Categoryone = () => {
               <img
                 src="https://i.ibb.co/Fs8xtH4/max-3.jpg"
                 alt="car!"
-                className="object-contain h-80"
+                className="object-contain h-60"
               />
             </figure>
             <div className="card-body mx-auto">
@@ -83,7 +83,7 @@ const Categoryone = () => {
               <img
                 src="https://i.ibb.co/Fs8xtH4/max-3.jpg"
                 alt="car!"
-                className="object-contain h-80"
+                className="object-contain h-60"
               />
             </figure>
             <div className="card-body mx-auto">
