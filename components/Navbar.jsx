@@ -36,6 +36,9 @@ const Navbar = () => {
                 <summary>Products</summary>
                 <ul className="p-2">
                   <li>
+                    <Link href="/products">All Products</Link>
+                  </li>
+                  <li>
                     <Link href="/products/categories/categoryone">
                       Category 1
                     </Link>
@@ -75,6 +78,9 @@ const Navbar = () => {
             <details>
               <summary className="text-white">Products</summary>
               <ul className="p-2">
+                <li>
+                  <Link href="/products">All Products</Link>
+                </li>
                 <li>
                   <Link href="/products/categories/categoryone">
                     Category 1

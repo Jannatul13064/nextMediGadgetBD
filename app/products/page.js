@@ -1,7 +1,14 @@
 import React from "react";
+import Categoryone from "./categories/categoryone/page";
+import Categorytwo from "./categories/categorytwo/page";
 
 const Products = () => {
-  return <div>Products</div>;
+  return (
+    <div>
+      <Categoryone />
+      <Categorytwo />
+    </div>
+  );
 };
 
 export default Products;
