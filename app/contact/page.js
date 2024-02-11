@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPhoneAlt,
+  faEnvelope,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
@@ -51,36 +57,105 @@ const Contact = () => {
           <h2 className="font-extrabold text-3xl mb-6 text-blue-600">
             Contact Information
           </h2>
-          <p>
-            <strong className="text-2xl">Address:</strong> MediGadget BD
-            Headquarters <br />
-            [Kazi Nazrul Avenue, Banglamotor] <br />
-            [Dhaka, Bangladesh, 1205] <br />
-          </p>
-          <p>
+          <div>
+            <strong className="text-2xl">Address:</strong>
+            <div className="flex mt-2 gap-8 items-center">
+              <div>
+                <FontAwesomeIcon
+                  icon={faMapMarkerAlt}
+                  size="sm"
+                  height="50px"
+                  className="text-cyan-400"
+                />{" "}
+              </div>
+              <div>{":"}</div>
+              <div>
+                MediGadget BD Headquarters <br />
+                [Kazi Nazrul Avenue, Banglamotor] <br />
+                [Dhaka, Bangladesh, 1205] <br />
+              </div>
+            </div>
+          </div>
+          <div>
             <strong className="text-2xl">Phone:</strong> <br />
-            Main:{" "}
-            <a href="tel:+8801890240594" className="text-primary">
-              01890240594{" "}
-            </a>
+            <div className="flex gap-3 items-center">
+              <div>Official Call :{""}</div>
+              <div>
+                <FontAwesomeIcon
+                  icon={faPhoneAlt}
+                  size="sm"
+                  height="15px"
+                  className="text-warning"
+                />{" "}
+              </div>
+              <div>
+                <a href="tel:+8801890240594" className="text-primary">
+                  01890240594{" "}
+                </a>
+              </div>
+            </div>
             <br />
-            Customer Service:
-            <a href="tel:+8801890240594" className="text-primary">
-              01890240594{" "}
-            </a>
-          </p>
-          <p>
+            <div className="flex gap-3 items-center">
+              <div>Support Call :{""}</div>
+              <div>
+                <FontAwesomeIcon
+                  icon={faPhoneAlt}
+                  size="sm"
+                  height="15px"
+                  className="text-warning"
+                />{" "}
+              </div>
+              <div>
+                <a href="tel:+8801890240594" className="text-primary">
+                  01890240594{" "}
+                </a>
+              </div>
+            </div>
+            <br />
+          </div>
+          <div>
             <strong className="text-2xl">Email:</strong> <br />
-            <a href="mailto:medigadgetbd@gmail.com" class="text-primary">
-              medigadgetbd@gmail.com
-            </a>{" "}
+            <div className="flex gap-3 items-center">
+              <div>Official Mail :{""}</div>
+              <div>
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  size="sm"
+                  height="15px"
+                  className="text-warning"
+                />{" "}
+              </div>
+              <div>
+                <a
+                  href="mailto:medigadgetbd@gmail.com"
+                  className="text-primary"
+                >
+                  medigadgetbd@gmail.com
+                </a>
+              </div>
+            </div>
             <br />
-            Customer Support:{" "}
-            <a href="mailto:medigadgetbd@gmail.com" class="text-primary">
-              medigadgetbd@gmail.com
-            </a>{" "}
+            <div className="flex gap-3 items-center">
+              <div>Support Mail :{""}</div>
+              <div>
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  size="sm"
+                  height="15px"
+                  className="text-warning"
+                />{" "}
+              </div>
+              <div>
+                <a
+                  href="mailto:medigadgetbd@gmail.com"
+                  className="text-primary"
+                >
+                  medigadgetbd@gmail.com
+                </a>
+              </div>
+            </div>
             <br />
-          </p>
+          </div>
         </div>
       </div>
     </div>
