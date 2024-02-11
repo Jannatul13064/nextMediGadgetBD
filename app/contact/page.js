@@ -14,6 +14,7 @@ const Contact = () => {
           <h2 className="font-extrabold text-3xl mb-6 text-blue-600">
             Contact Form
           </h2>
+          <hr className="mb-4" />
           {/* Insert Contact Form Here */}
           <form style={{ display: "flex", flexDirection: "column" }}>
             <label htmlFor="name">Name:</label>
@@ -57,21 +58,22 @@ const Contact = () => {
           <h2 className="font-extrabold text-3xl mb-6 text-blue-600">
             Contact Information
           </h2>
+          <hr className="mb-4" />
           <div>
             <strong className="text-2xl">Address:</strong>
-            <div className="flex mt-2 gap-8 items-center">
+            <div className="flex mt-2 gap-4 items-center justify-start">
               <div>
                 <FontAwesomeIcon
                   icon={faMapMarkerAlt}
                   size="sm"
-                  height="50px"
+                  height="30px"
                   className="text-cyan-400"
                 />{" "}
               </div>
               <div>{":"}</div>
               <div>
-                MediGadget BD Headquarters <br />
-                [Kazi Nazrul Avenue, Banglamotor] <br />
+                MediGadget BD Headquarters [Kazi Nazrul Avenue, Banglamotor]{" "}
+                <br />
                 [Dhaka, Bangladesh, 1205] <br />
               </div>
             </div>
@@ -85,7 +87,7 @@ const Contact = () => {
                   icon={faPhoneAlt}
                   size="sm"
                   height="15px"
-                  className="text-warning"
+                  className="text-primary"
                 />{" "}
               </div>
               <div>
@@ -102,7 +104,7 @@ const Contact = () => {
                   icon={faPhoneAlt}
                   size="sm"
                   height="15px"
-                  className="text-warning"
+                  className="text-rose-700"
                 />{" "}
               </div>
               <div>
@@ -122,7 +124,7 @@ const Contact = () => {
                   icon={faEnvelope}
                   size="sm"
                   height="15px"
-                  className="text-warning"
+                  className="text-primary"
                 />{" "}
               </div>
               <div>
@@ -142,7 +144,7 @@ const Contact = () => {
                   icon={faEnvelope}
                   size="sm"
                   height="15px"
-                  className="text-warning"
+                  className="text-primary"
                 />{" "}
               </div>
               <div>
