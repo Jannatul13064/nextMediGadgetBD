@@ -52,20 +52,34 @@ const Contact = () => {
             Contact Information
           </h2>
           <p>
-            <strong>Address:</strong> MediGadget BD Headquarters <br />
-            [Your Address Here] <br />
-            [City, State, ZIP] <br />
-            [Country]
+            <strong className="text-2xl">Address:</strong> MediGadget BD
+            Headquarters <br />
+            [Kazi Nazrul Avenue, Banglamotor] <br />
+            [Dhaka, Bangladesh, 1205] <br />
           </p>
           <p>
-            <strong>Phone:</strong> <br />
-            Main: [Your Phone Number] <br />
-            Customer Service: [Customer Service Phone Number]
+            <strong className="text-2xl">Phone:</strong> <br />
+            Main:{" "}
+            <a href="tel:+8801890240594" className="text-primary">
+              01890240594{" "}
+            </a>
+            <br />
+            Customer Service:
+            <a href="tel:+8801890240594" className="text-primary">
+              01890240594{" "}
+            </a>
           </p>
           <p>
-            <strong>Email:</strong> <br />
-            General Inquiries: [General Email Address] <br />
-            Customer Support: [Customer Support Email Address]
+            <strong className="text-2xl">Email:</strong> <br />
+            <a href="mailto:medigadgetbd@gmail.com" class="text-primary">
+              medigadgetbd@gmail.com
+            </a>{" "}
+            <br />
+            Customer Support:{" "}
+            <a href="mailto:medigadgetbd@gmail.com" class="text-primary">
+              medigadgetbd@gmail.com
+            </a>{" "}
+            <br />
           </p>
         </div>
       </div>
