@@ -67,7 +67,7 @@ const Contact = () => {
                   icon={faMapMarkerAlt}
                   size="sm"
                   height="30px"
-                  className="text-cyan-400"
+                  className="text-blue-600"
                 />{" "}
               </div>
               <div>{":"}</div>
