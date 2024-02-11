@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="text-3xl font-bold text-blue-600 mb-4">
         About MediGadget BD
       </h1>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 p-4">
         {/* Managing Director Card */}
         <div className="p-4 border rounded-lg shadow-md">
           <div className="flex items-center mb-4">
