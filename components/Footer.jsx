@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
-      <nav className="grid grid-flow-col gap-4">
+    <footer className="footer footer-center p-10 bg-slate-950 text-base-content rounded">
+      <nav className="grid grid-flow-col gap-4 text-white">
         <Link href="/about" className="link link-hover">
           About us
         </Link>
@@ -14,7 +14,7 @@ const Footer = () => {
         <a className="link link-hover">Jobs</a>
         <a className="link link-hover">Press kit</a>
       </nav>
-      <nav>
+      <nav className="text-white">
         <div className="grid grid-flow-col gap-4">
           <a>
             <svg
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </nav>
       <aside>
-        <div>
+        <div className="text-white">
           Copyright © 2024 - All right reserved by{" "}
           <span className="font-bold text-blue-600">MediGadget</span>{" "}
           <span className="text-red-500">BD</span>

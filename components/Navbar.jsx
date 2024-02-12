@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className=" sticky navbar top-0 bg-orange-300 bg-clip-padding backdrop-filter backdrop-blur-6xl z-10">
+    <div className=" sticky navbar top-0 bg-slate-950 bg-clip-padding backdrop-filter backdrop-blur-6xl z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
