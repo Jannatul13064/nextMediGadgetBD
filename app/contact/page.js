@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import emailjs from "emailjs-com";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhoneAlt,
@@ -7,6 +9,31 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_4pcmj7q", // Replace with your service ID
+        "template_2nta9zj", // Replace with your template ID
+        e.target, // The form element
+        "8TlgFoS0kvxDsYKN0" // Replace with your user ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("result");
+          alert("Your message has been sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+          alert(
+            "There was an error sending your message. Please try again later."
+          );
+        }
+      );
+
+    e.target.reset();
+  }
   return (
     <div className="container mx-auto px-4 my-10">
       <div className="grid gap-40 md:grid-cols-2 sm:grid-cols-1">
@@ -16,7 +43,10 @@ const Contact = () => {
           </h2>
           <hr className="mb-4" />
           {/* Insert Contact Form Here */}
-          <form style={{ display: "flex", flexDirection: "column" }}>
+          <form
+            style={{ display: "flex", flexDirection: "column" }}
+            onSubmit={sendEmail}
+          >
             <label htmlFor="name">Name:</label>
             <input
               type="text"
@@ -49,9 +79,12 @@ const Contact = () => {
               className="input border-indigo-500 resize-none rounded-md"
               required
             ></textarea>
-            <button type="submit" className="mt-4 btn btn-primary">
-              Submit
-            </button>
+            <input
+              type="submit"
+              name="submit"
+              className="mt-4 btn btn-primary"
+              value="Submit"
+            />
           </form>
         </div>
         <div>
